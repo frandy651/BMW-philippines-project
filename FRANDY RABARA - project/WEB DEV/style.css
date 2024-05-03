@@ -1,0 +1,100 @@
+
+body{
+  display: block;
+  content: '';
+  height: 60px;
+  font-family: "Nunito", sans-serif;
+}
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}
+#mainNavbar{
+  background-color: #0166b1;
+}
+#mainNavbar .navbar-brand{
+  color: #ffffff;
+}
+#mainNavbar .nav-link{
+  color: 	#ffffff;
+}
+#mainNavbar .nav-link:hover{
+  color: #0c056c;
+}
+#carousel{
+  background-color: #6f6f6f;
+}
+#learn{
+  background-color: #0166b1;
+}
+#bmw{
+  background-color: #6f6f6f;
+}
+#instrusctors{
+  background-color: #0166b1;
+}
+#learn h1{
+  font-weight: 100;
+  font-size: 2.6rem;
+}
+#learn h2{
+  font-weight: 100;
+  font-size: 2rem;
+}
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  color: white;
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#footer{
+background-color: #000000;
+  height: 100px;
+  width: 100px;
+}
+#fttr{
+  background-color: #6f6f6f;
+
+}
